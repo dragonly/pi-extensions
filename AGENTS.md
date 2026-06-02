@@ -13,3 +13,7 @@ Rules for AI agents working in this repo.
 - Each extension goes in its own `.ts` file under the repo root.
 - Keep extensions self-contained; no dependencies outside `@mariozechner/pi-coding-agent` and `@mariozechner/pi-tui`.
 - Update `README.md` when adding or removing an extension.
+
+## Git
+
+- This is a personal repo where the user is the sole maintainer. Committing directly to `main` is fine here — no need to branch + PR (overrides the global "never commit to main" rule).
