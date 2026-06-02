@@ -29,7 +29,7 @@ Schedules recurring prompts in the current pi session.
 
 ### `last-assistant-time.ts`
 
-Shows the timestamp of the most recent assistant response in the footer status bar (e.g. `last reply: 14:32:07 (2m ago)`).
+Shows the timestamp of the most recent assistant response in the footer status bar (e.g. `last reply: 06-02 14:32:07 (2m ago)`).
 
 - Reads the current branch's last assistant message via `SessionManager.getBranch()`, so `/tree` navigation and `/fork` are handled correctly.
 - Refreshes on `session_start`, on each assistant `message_end`, and every 30s to keep the relative "Xm ago" fresh.
